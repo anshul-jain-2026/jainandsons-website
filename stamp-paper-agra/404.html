@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<title>Jain &amp; Sons</title>
+<script>
+(function () {
+  var base = "/jainandsons-website";
+  var path = location.pathname;
+  if (path.indexOf(base) === 0) {
+    location.replace(base + "/" + location.search + location.hash);
+  } else {
+    location.replace(base + path + location.search + location.hash);
+  }
+})();
+</script>
+</head>
+<body>
+<p>Redirecting to Jain &amp; Sons…</p>
+</body>
+</html>
